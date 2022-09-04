@@ -8,7 +8,7 @@
  */
 
 import axios from "axios"; // 导入axios库
-import { isObject, isArray } from "@vantop/vantop-util"
+import { isObject, isArray } from "@master_vantop/vantop-util"
 import { _httpOptions } from "../config/settings"; // 导入配置项
 import { HttpCode, StatusCode } from "../config/HttpCode";
 import NProgress from 'nprogress';

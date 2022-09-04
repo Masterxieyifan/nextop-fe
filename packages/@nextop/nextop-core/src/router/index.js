@@ -5,7 +5,7 @@
  * @LastEditTime: 2022-06-27 14:00:44
  * @FilePath: /nextop-core/src/router/index.js
  */
-import { isArray, isFunction, uniqBy } from '@vantop/vantop-util';
+import { isArray, isFunction, uniqBy } from '@master_vantop/vantop-util';
 import { LocalStorage, } from '../storage/index';
 
 // export function routerGo(href = '/', title = null, stateObj = {}) {

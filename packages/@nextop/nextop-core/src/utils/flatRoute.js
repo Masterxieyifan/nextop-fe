@@ -8,7 +8,7 @@
 /**
  * @param {*} item 菜单数据
  */
-import { isArray, cloneDeep } from "@vantop/vantop-util";
+import { isArray, cloneDeep } from "@master_vantop/vantop-util";
 
 export const flatRoute = item => {
     if (!isArray(item)) {

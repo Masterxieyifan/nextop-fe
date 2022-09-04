@@ -27,7 +27,7 @@ export default {
                 'nprogress': 'NProgress',
                 'element-ui': 'ELEMENT',
                 'async-validator': 'AsyncValidator',
-                '@vantop/vantop-util': 'VantopUtil',
+                '@master_vantop/vantop-util': 'VantopUtil',
                 '@nextop/nextop-core': 'NextopCore',
             }
         },
@@ -46,7 +46,7 @@ export default {
         'nprogress',
         'element-ui',
         'async-validator',
-        '@vantop/vantop-util',
+        '@master_vantop/vantop-util',
         '@nextop/nextop-core',
     ],
     plugins: [

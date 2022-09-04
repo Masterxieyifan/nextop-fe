@@ -9,7 +9,7 @@
 
 import Vue from 'vue';
 import { renderSubchild } from './setup';
-import { isFunction, isArray, upperFirst } from '@vantop/vantop-util';
+import { isFunction, isArray, upperFirst } from '@master_vantop/vantop-util';
 
 let router = null;
 let instance = null;

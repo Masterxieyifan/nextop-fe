@@ -26,7 +26,7 @@ export default {
                 'axios': 'axios',
                 'dayjs': 'dayjs',
                 'qs': 'Qs',
-                '@vantop/vantop-util': 'VantopUtil',
+                '@master_vantop/vantop-util': 'VantopUtil',
                 '@nextop/nextop-http': 'NextopHttp'
             }
         },
@@ -44,7 +44,7 @@ export default {
         'axios',
         'dayjs',
         'qs',
-        '@vantop/vantop-util'
+        '@master_vantop/vantop-util'
     ],
     plugins: [
         nodeResolve(),
