@@ -1,0 +1,74 @@
+{
+  "name": "@nextop/nextop-core",
+  "author": "yong.xie <535106615@qq.com>",
+  "version": "0.0.0",
+  "description": "核心库",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.min.js",
+  "scripts": {
+      "build": "rollup -c",
+      "test": "echo \"Error: run tests from root\" && exit 1",
+      "postversion": "git add . && git commit -m\"publish $npm_package_name@$npm_package_version\" && git tag -a $npm_package_name@$npm_package_version -m \"version @$npm_package_version \" && git push --follow-tags"
+  },
+  "directories": {
+      "lib": "lib",
+      "test": "__tests__"
+  },
+  "files": [
+      "lib",
+      "styles",
+      "mixins",
+      "src",
+      "directives"
+  ],
+  "publishConfig": {
+      "registry": "http://npm.nextop.cc/"
+  },
+  "repository": {
+      "type": "git",
+      "url": "http://git.nextop.cc/nextop-web-micro/nextop"
+  },
+  "keywords": [
+      "nextop-core",
+      "核心库",
+      "utils",
+      "工具库",
+      "array",
+      "数组",
+      "number",
+      "数字型操作",
+      "time",
+      "时间类型操作",
+      "type",
+      "类型判断",
+      "storage",
+      "本地存储",
+      "validate",
+      "校验方法"
+  ],
+  "devDependencies": {
+      "@babel/cli": "^7.12.10",
+      "@babel/core": "^7.12.10",
+      "@babel/node": "^7.12.10",
+      "@babel/plugin-proposal-class-properties": "^7.12.1",
+      "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+      "@babel/plugin-transform-modules-umd": "^7.13.0",
+      "@babel/plugin-transform-runtime": "^7.17.10",
+      "@babel/preset-env": "^7.12.11",
+      "@babel/preset-typescript": "^7.12.7",
+      "@rollup/plugin-babel": "^5.3.0",
+      "@rollup/plugin-commonjs": "^22.0.0",
+      "@rollup/plugin-node-resolve": "^13.0.6",
+      "@vantop/vantop-util": "1.0.60",
+      "qs": "^6.10.1",
+      "rollup": "^2.68.0",
+      "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+      "dayjs": "^1.10.3",
+      "lodash.curry": "^4.1.1",
+      "lodash.snakecase": "^4.1.1"
+  },
+  "gitHead": "461b320d657414ba388d4eff5b8729f833648f41"
+}
