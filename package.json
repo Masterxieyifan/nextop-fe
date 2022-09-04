@@ -1,10 +1,49 @@
 {
-  "name": "root",
+  "name": "nextop",
   "private": true,
+  "author": "yifan.xie",
   "workspaces": [
     "packages/@nextop/*"
   ],
+  "scripts": {
+    "cz": "cz",
+    "build-core": "lerna run build --scope @nextop/nextop-core",
+    "build-http": "lerna run build --scope @nextop/nextop-http",
+    "build-mixins": "lerna run build --scope @nextop/nextop-mixins",
+    "build-router": "lerna run build --scope @nextop/nextop-router",
+    "build": "concurrently \"npm run build-core\" \"npm run build-http\" \"npm run build-mixins\" \"npm run build-router\""
+  },
+  "keywords": [
+    "micro",
+    "util",
+    "lerna"
+  ],
+  "license": "ISC",
   "devDependencies": {
-    "lerna": "^5.5.0"
-  }
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.3",
+    "commitlint-config-cz": "^0.13.2",
+    "concurrently": "^5.3.0",
+    "cz-customizable": "^6.3.0",
+    "husky": "^4.3.8",
+    "inquirer": "^7.3.3",
+    "lerna-changelog": "^1.0.1",
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "version": "0.0.2"
 }
