@@ -38,7 +38,7 @@
     "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-typescript": "^7.12.7",
-    "@master_vantop/nextop-core": "^0.0.0",
+    "@master_vantop/nextop-core": "^0.0.8",
     "@master_vantop/vantop-util": "^0.0.0",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^22.0.0",
