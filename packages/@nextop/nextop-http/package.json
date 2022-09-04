@@ -12,8 +12,7 @@
   "scripts": {
     "build:babel": "./node_modules/.bin/babel src --out-dir lib --extensions '.ts' --extensions '.js'",
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "rollup -c",
-    "postversion": "git add . && git commit -m\"publish $npm_package_name@$npm_package_version\" && git tag -a $npm_package_name@$npm_package_version -m \"version @$npm_package_version \" && git push --follow-tags"
+    "build": "rollup -c"
   },
   "directories": {
     "lib": "lib",
