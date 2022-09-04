@@ -1,7 +1,7 @@
 {
   "name": "@master_vantop/nextop-http",
   "author": "yong.xie <535106615@qq.com>",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "网络通讯库",
   "keywords": [
     "http"
@@ -38,8 +38,8 @@
     "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-typescript": "^7.12.7",
-    "@master_vantop/vantop-util": "^0.0.0",
     "@master_vantop/nextop-core": "^0.0.0",
+    "@master_vantop/vantop-util": "^0.0.0",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.0.6",
