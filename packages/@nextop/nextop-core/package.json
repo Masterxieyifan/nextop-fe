@@ -22,7 +22,8 @@
         "directives"
     ],
     "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
     },
     "repository": {
         "type": "git",
@@ -69,5 +70,5 @@
         "lodash.curry": "^4.1.1",
         "lodash.snakecase": "^4.1.1"
     },
-    "gitHead": "14d816c6d6169ba35a71c4d09b04291a67556f02"
+    "gitHead": "992d97cecd54584ca321b6a53777fcab8200c06e"
 }
