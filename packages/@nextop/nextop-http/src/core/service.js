@@ -8,7 +8,7 @@
 import axios from 'axios';
 import Http from '../utils/http';
 // import { addAxiosCancel } from './cancel';
-import { LocalStorage, logout, handleExceptionLogout, getAuthorization } from '@nextop/nextop-core';
+import { LocalStorage, logout, handleExceptionLogout, getAuthorization } from '@master_vantop/nextop-core';
 import { message as Message, } from '../utils/resetMessage';
 import NProgress from 'nprogress';
 import { VUE_APP_BASE_API_GW } from '../config/settings';

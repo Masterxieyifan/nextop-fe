@@ -3,7 +3,7 @@
 // import instance from './service.js'
 
 import axios from "axios";
-import { LocalStorage, getAuthorization } from "@nextop/nextop-core";
+import { LocalStorage, getAuthorization } from "@master_vantop/nextop-core";
 import { VUE_APP_BASE_API_GW } from "../config/settings";
 import { Message } from "element-ui";
 

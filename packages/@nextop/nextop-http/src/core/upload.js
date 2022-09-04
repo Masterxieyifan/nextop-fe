@@ -7,7 +7,7 @@
  * @FilePath: /@nextop/nextop-http/src/core/upload.js
  */
 import axios from 'axios';
-import { getAuthorization } from '@nextop/nextop-core';
+import { getAuthorization } from '@master_vantop/nextop-core';
 import { VUE_APP_BASE_API_GW } from '../config/settings';
 
 let instance = axios.create({ baseURL: VUE_APP_BASE_API_GW, });

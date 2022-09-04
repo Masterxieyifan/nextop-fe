@@ -27,7 +27,7 @@ export default {
                 'dayjs': 'dayjs',
                 'qs': 'Qs',
                 '@master_vantop/vantop-util': 'VantopUtil',
-                '@nextop/nextop-http': 'NextopHttp'
+                '@master_vantop/nextop-http': 'NextopHttp'
             }
         },
         {

@@ -6,7 +6,7 @@
  * @FilePath: /@nextop/nextop-http/src/core/download.js
  */
 import axios from 'axios';
-import { getAuthorization} from '@nextop/nextop-core';
+import { getAuthorization} from '@master_vantop/nextop-core';
 import { Message, } from 'element-ui';
 import { VUE_APP_BASE_API_GW } from '../config/settings';
 

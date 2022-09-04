@@ -28,7 +28,7 @@ export default {
                 'element-ui': 'ELEMENT',
                 'async-validator': 'AsyncValidator',
                 '@master_vantop/vantop-util': 'VantopUtil',
-                '@nextop/nextop-core': 'NextopCore',
+                '@master_vantop/nextop-core': 'NextopCore',
             }
         },
         // 兼容本地 node_modules 用法
@@ -47,7 +47,7 @@ export default {
         'element-ui',
         'async-validator',
         '@master_vantop/vantop-util',
-        '@nextop/nextop-core',
+        '@master_vantop/nextop-core',
     ],
     plugins: [
         nodeResolve(),

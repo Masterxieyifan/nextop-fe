@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { LocalStorage, logout } from '@nextop/nextop-core';
+import { LocalStorage, logout } from '@master_vantop/nextop-core';
 import { VUE_APP_BASE_API_GW } from '../config/settings';
 import NProgress from 'nprogress';
 import { message as Message, } from '../utils/resetMessage';
