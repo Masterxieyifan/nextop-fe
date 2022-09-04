@@ -1,7 +1,7 @@
 {
   "name": "@master_vantop/nextop-http",
   "author": "yong.xie <535106615@qq.com>",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "网络通讯库",
   "keywords": [
     "http"
