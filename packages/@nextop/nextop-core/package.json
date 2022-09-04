@@ -1,5 +1,5 @@
 {
-  "name": "@nextop/nextop-core",
+  "name": "@master_vantop/nextop-core",
   "author": "yong.xie <535106615@qq.com>",
   "version": "0.0.0",
   "description": "核心库",
@@ -23,11 +23,11 @@
       "directives"
   ],
   "publishConfig": {
-      "registry": "http://npm.nextop.cc/"
+      "registry": "https://registry.npmjs.org/"
   },
   "repository": {
       "type": "git",
-      "url": "http://git.nextop.cc/nextop-web-micro/nextop"
+      "url": "https://github.com/Masterxieyifan/nextop-fe.git"
   },
   "keywords": [
       "nextop-core",

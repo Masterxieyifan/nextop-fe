@@ -1,5 +1,5 @@
 {
-  "name": "@nextop/nextop-http",
+  "name": "@master_vantop/nextop-http",
   "author": "yong.xie <535106615@qq.com>",
   "version": "0.0.0",
   "description": "网络通讯库",
@@ -23,11 +23,11 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://npm.nextop.cc/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "http://git.nextop.cc/nextop-web-micro/nextop"
+    "url": "https://github.com/Masterxieyifan/nextop-fe.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
